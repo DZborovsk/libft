@@ -6,7 +6,7 @@
 #    By: dzborovk <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/10/30 15:44:13 by dzborovk          #+#    #+#              #
-#    Updated: 2017/11/07 16:32:12 by dzborovk         ###   ########.fr        #
+#    Updated: 2018/07/19 13:09:17 by dzborovk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ SRC_C = ft_putchar.c ft_putstr.c ft_putnbr.c \
 		ft_strsplit.c ft_lstnew.c ft_lstdelone.c \
 		ft_lstdel.c ft_lstadd.c ft_lstiter.c \
 		ft_lstmap.c	ft_foreach.c ft_str_swap.c \
-		ft_swap.c ft_countw.c
+		ft_swap.c ft_countw.c get_next_line.c
 OBJ = $(SRC_C:.c=.o)
 
 all: $(NAME)
